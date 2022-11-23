@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(183, 175, 164);
+}
+
+.navCenter {
+  padding: 10px;
+}
+
+.navHeader {
+  padding: 10px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(37, 30, 30, 0.732);
+}
+.navToggle {
+  padding: 4px;
+  background-color: rgb(38, 0, 0);
+  color: white;
+  outline: none;
+  transition: 0.2s all;
+  border-radius: 2px;
+}
+.navToggle:hover {
+  background-color: rgb(39, 10, 10);
+  color: rgb(201, 201, 50);
+}
+.title {
+  font-size: 20px;
+  color: white;
+}
+.linksContainer {
+  background-color: rgb(45, 48, 48);
+}
+.links {
+  display: flex;
+  padding: 10px;
+  list-style-type: none;
+}
+.linksliOne {
+  background-color: rgb(177, 155, 155);
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin: auto;
+  transition: 0.3s all;
+}
+.linksliOne:hover {
+  background-color: rgba(86, 81, 36, 0.71);
+  color: white;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.linksliOne a {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+.socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+.li-a {
+  margin: 5px;
+}
+.li-a a {
+  color: rgb(25, 31, 10);
+  transition: 0.3s all;
+  font-size: 20px;
+}
+.li-a a:hover {
+  color: rgb(0, 81, 124);
+}
+
+/* @mondalcodehub-NOV22 */
